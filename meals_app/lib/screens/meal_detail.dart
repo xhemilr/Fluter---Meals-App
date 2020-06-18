@@ -9,7 +9,6 @@ class MealDetailScreen extends StatelessWidget {
   final Function toggleFavorite;
   final Function isMealFavorite;
 
-
   MealDetailScreen(this.toggleFavorite, this.isMealFavorite);
 
   Widget buildSectionTitle(BuildContext context, String text) {
