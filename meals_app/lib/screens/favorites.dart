@@ -17,11 +17,6 @@ class FavoritesScreen extends StatelessWidget {
       );
     }else{
       return Scaffold(
-//        appBar: AppBar(
-//          title: Text(
-//            'Favorites',
-//          ),
-//        ),
         body: ListView.builder(
           itemBuilder: (ctx, index){
             return MealItem(
